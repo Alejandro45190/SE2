@@ -35,7 +35,7 @@ public class Queue {
         throw new QueueException("Stack is empty"); 
     }
     
-    public void peek() {
+    public void peek() { 
         
     }
      
