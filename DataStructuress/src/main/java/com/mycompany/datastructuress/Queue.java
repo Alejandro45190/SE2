@@ -36,7 +36,7 @@ public class Queue {
     public void peek() {
         
     }
-    
+     
     public boolean isEmpty() {
         if (front == -1) {
             return true;
