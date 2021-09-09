@@ -24,6 +24,7 @@ public class Queue {
             }
             rear = (rear + 1) % values.length;
             values[rear] = num;
+            throw new QueueException("Stack is full");
         }
     }
     
@@ -31,6 +32,7 @@ public class Queue {
         for (int i = 0; i < values.length; i++) {
             System.out.printf("%d ", values[i]);
         }
+        throw new QueueException("Stack is empty"); 
     }
     
     public void peek() {
